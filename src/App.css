@@ -1,42 +1,171 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  width: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.dashBoarMainPage {
+  width: 1440px;
+  height: 100vh;
+  top: -841px;
+  left: -4825px;
+  border-radius: 20px;
+  gap: 32px;
+  background: #ffffff;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.leftSidebar {
+  width: 240px;
+  justify-content: space-between;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 32px;
+  background: #ffffff;
+  box-shadow: 0px 14px 42px 0px #080f340f;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.leftSidebarInsideFirst {
+  width: 146px;
+  height: 566px;
+  gap: 48px;
 }
 
-.card {
-  padding: 2em;
+.mainLogo {
+  width: 146px;
+  height: 40px;
+  gap: 9px;
 }
 
-.read-the-docs {
-  color: #888;
+.logoImg {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  gap: 10px;
+  border-radius: 60px;
+}
+
+.logoText {
+  position: relative;
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #4a3aff;
+}
+
+.sideBarListContent {
+  width: 146px;
+  height: 252px;
+  gap: 10px;
+  margin-top: 48px;
+}
+
+.allList {
+  width: 146px;
+  height: 35px;
+  gap: 12px;
+  border-radius: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #ffffff;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.sideNavIcons {
+  width: 20px;
+  height: 20px;
+}
+
+.overViewText {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.listNames {
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.activeText {
+  color: #702dff;
+}
+
+.unactiveText {
+  color: #202020 !important;
+}
+
+.friendsBox {
+  width: 146px;
+  height: 178px;
+  gap: 10px;
+  margin-top: 48px;
+}
+
+.designationTest {
+  font-size: 10px !important;
+}
+
+.settingsDiv {
+  width: 146;
+  height: 125;
+  gap: 10px;
+  margin-top: 110px;
+}
+
+.settingsHeading {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.settingsDivFontsStyle {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #202020;
+  cursor: pointer;
+}
+
+.friendsHeading {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #3f3f3f;
+}
+
+.settingsDivStyling {
+  width: 146px;
+  gap: 12px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.settingSectionsIcon {
+  width: 18px;
+  height: 18px;
 }
